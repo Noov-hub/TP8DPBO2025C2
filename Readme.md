@@ -86,18 +86,6 @@ student_mvc/
    - Penanganan method GET vs POST
    - Pola redirect-after-POST
 
-## 🛠️ Instruksi Setup
-1. Import skema database dari `database.sql`
-2. Konfigurasi kredensial database di `config/database.php`
-3. Letakkan proyek di folder `htdocs` XAMPP/WAMP
-4. Akses melalui `http://localhost/student_mvc/public/`
-
-## 🔧 Pemecahan Masalah
-- Cek log error XAMPP untuk masalah PHP
-- Verifikasi permission database
-- Pastikan path file benar (case-sensitive di Linux)
-- Periksa kompatibilitas versi PHP (membutuhkan PHP 7.4+)
-
 ## 📚 Best Practices yang Diterapkan
 1. **Keamanan**:
    - Sanitasi input
@@ -113,5 +101,3 @@ student_mvc/
    - Pemisahan tanggung jawab
    - Konvensi penamaan yang bermakna
    - Gaya kode yang konsisten
-
-Arsitektur ini memberikan fondasi yang kuat untuk mengembangkan aplikasi dengan fitur tambahan sambil menjaga organisasi kode yang rapi dan standar keamanan.
