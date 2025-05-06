@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /student_mvc/public/
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ index.php?action=$1 [QSA,L]
